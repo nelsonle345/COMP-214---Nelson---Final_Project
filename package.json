@@ -1,12 +1,16 @@
 {
-  "name": "comp-214---nelson---final_project",
-  "version": "1.0.0",
-  "description": "Comp 214 Final Project",
-  "main": "server.js",
+  "name": "comp-214---nelson---final-project",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "author": "Nelson Le",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
