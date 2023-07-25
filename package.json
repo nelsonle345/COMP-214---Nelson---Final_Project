@@ -1,0 +1,12 @@
+{
+  "name": "comp-214---nelson---final_project",
+  "version": "1.0.0",
+  "description": "Comp 214 Final Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nelson Le",
+  "license": "ISC"
+}
