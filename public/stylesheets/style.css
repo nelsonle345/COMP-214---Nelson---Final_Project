@@ -1,8 +1,108 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
+  position: relative; /* Set body as the relative positioned ancestor */
+  
 }
 
 a {
   color: #00B7FF;
+}
+
+ul {
+  list-style: none; /* Hide default list item markers */
+}
+
+ul li::before {
+  content: "\2615"; /* Unicode representation for coffee cup */
+}
+
+main {
+  display: flex;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  color: lightyellow;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.bg-light-brown {
+  background-color: #D2B48C;
+}
+
+.table-container {
+  text-align: right; 
+  margin-left: 200px; /* Add a margin on the right side */
+}
+
+
+.nav-list {
+  flex-grow: 1
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.nav-list li {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  display: flex; /* Display list items as flex containers */
+  align-items: center; /* Center items vertically */
+ 
+  font-size: 30px;
+}
+
+.Buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+button {
+  margin-left: 20px;
+}
+
+.custom_button{
+  margin-right: 150px;
+}
+
+p{
+  margin-right:55px;
+}
+
+a{
+  text-decoration: none;
+  color: #00B7FF;
+}
+
+a:hover{
+  color: #FF0000
 }
